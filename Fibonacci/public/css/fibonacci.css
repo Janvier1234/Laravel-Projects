@@ -1,0 +1,25 @@
+/* public/css/fibonacci.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.fibonacci-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fibonacci-list {
+    list-style: none;
+    padding: 0;
+}
+
+.fibonacci-list li {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}

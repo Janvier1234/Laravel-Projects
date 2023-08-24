@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    margin: 10px;
+}
+
+.image img {
+    width: 200px; /* Adjust the thumbnail size as needed */
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
